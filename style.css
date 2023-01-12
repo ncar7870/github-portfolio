@@ -101,8 +101,11 @@ html, body {
 .cont_row_3{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   border:blue 5px solid;
   width:360px;
+  padding:2px;
+  margin:5px;
 }
 .lp1_3{
   border:orange 5px solid;
@@ -113,7 +116,7 @@ html, body {
 .lp2_3{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   border:orange 5px solid;
   height:250px;
   width:300px;
