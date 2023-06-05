@@ -5,92 +5,100 @@ html, body {
 .main_cont{
   display: flex;
   justify-content: center;
-  border:yellow 5px solid;
+  border:#286525 5px solid;
   margin:10px;
   height:99%;
   width:99%;
+  background-color:#d4e5d2;
 }
 .cont_row_1{
   display: flex;
   flex-direction: column;
-  border:blue 5px solid;
+  border:#595959 5px solid;
   width:300px;
+  background-color:#5ca159;
 }
 .bigsec1{
   display: flex;
   flex-direction: row;
-  border:green 5px solid;
+  border:#595959 5px;
 }
 .img{
-  border:purple 5px solid;
+  border:#595959 5px solid;
   width:150px;
   height:150px;
 }
 .noe{
   display: flex;
   flex-direction: column;
-  border: 5px solid red;
+  border: #595959 solid 5px;
   width:150px;
   height:150px;
 }
 .name{
-  border:orange 5px solid;
+  border:#595959 5px;
   font-size:10px;
   height:60px;
 }
 .occ{
-  border:orange 5px solid;
+  border:#595959 5px;
   font-size:8px;
   height:45px;
 }
 .edu{
-  border:orange 5px solid;
+  border:orange 5px;
   font-size:8px;
   height:45px;
 }
 .sec1{
-  border:yellow 5px solid;
+  background-color:#aadda7;
+  border:#286525 5px solid;
 }
 .sec2{
-  border:yellow 5px solid;
+  background-color:#aadda7;
+  border:#286525 5px solid;
 }
 .sec3{
-  border:yellow 5px solid;
+  background-color:#aadda7;
+  border:#286525 5px solid;
 }
 .sec4{
-  border:yellow 5px solid;
+  background-color:#aadda7;
+  border:#286525 5px solid;
 }
 .sec5{
-  border:yellow 5px solid;
+  background-color:#aadda7;
+  border:#286525 5px solid;
 }
 .cont_row_2{
   display: flex;
   flex-direction: column;
-  border:blue 5px solid;
+  background-color:#aadda7;
+  border:#286525 5px solid;
   padding:10px;
   width:500px;
 }
 .gallery{
-  border:red 5px solid;
+  border:#286525 5px solid;
   height:200px;
   margin:3px;
 }
 .post2{
   display:flex;
   flex-direction:row;
-  border:red 5px solid;
+  border:#286525 5px solid;
   height:200px;
   margin:3px;
 }
 .ip2{
-  border:red 5px solid;
-  height:200px;
+  border:#286525 5px solid;
+  height:190px;
   width:250px;
   
 }
 .tp2{
-  border:red 5px solid;
-  height:200px;
+  border:#286525 5px solid;
+  height:190px;
   width:250px;
 }
 .post3{
@@ -102,42 +110,49 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border:blue 5px solid;
+  border:#286525 5px solid;
+  background-color: #5ca159;
   width:360px;
   padding:2px;
-  margin:5px;
 }
 .lp1_3{
-  border:orange 5px solid;
-  height:250px;
-  width:300px;
+  border:#286525 5px solid;
+  height:310px;
+  width:340px;
   margin:5px;
 }
 .lp2_3{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border:orange 5px solid;
+  border:#286525 5px solid;
+  background-color:#aadda7;
   height:250px;
   width:300px;
   margin:5px;
 }
 .lp2_3_i{
-  border:orange 5px solid;
+  border:orange 5px ;
   width:120px;
   height:250px;
 }
 .lp2_3_t{
-  border:orange 5px solid;
+  border:#286525 5px ;
   width:120px;
   height:250px;
 }
 .lp3_3{
-  border:orange 5px solid;
-  height:250px;
-  width:300px;
+  border:#286525 5px solid;
+  height:230px;
+  width:310px;
   margin:5px;
 }
+
+
+
+
+
+
 
 
 * {box-sizing:border-box}
@@ -208,14 +223,14 @@ html, body {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #278623;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #286525;
 }
 
 /* Fading animation */
